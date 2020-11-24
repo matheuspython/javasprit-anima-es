@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4f5d80;
+    padding: 10px;
+    display: flex;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    left: 0;
+    top: 36px;
+    width: 100%;
+    height: 170px;
+    background-color: #262e42;
+    text-align: center;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    width: 50%;
+}
+
+.icon-menu {
+    width: 50%;
+    text-align: right;
+}
+
+.icon-menu i {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
